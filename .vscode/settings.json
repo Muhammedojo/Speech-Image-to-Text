@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
-        "mlkit"
+        "dontwarn",
+        "mlkit",
+        "Proguard"
     ]
 }

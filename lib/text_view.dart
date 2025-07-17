@@ -81,7 +81,6 @@ class SpeechToTextScreenState extends State<SpeechToTextScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.record_voice_over_rounded, size: 40),
-
             const SizedBox(height: 20),
             Text(_text),
           ],

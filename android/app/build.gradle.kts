@@ -28,8 +28,10 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        multiDexEnabled = true
     }
 
+    
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
@@ -38,6 +40,7 @@ android {
         }
     }
 }
+
 
 flutter {
     source = "../.."
